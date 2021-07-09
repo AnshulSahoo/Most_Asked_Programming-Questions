@@ -3,7 +3,7 @@
 #include<stdio.h>
 #define PI 3.14
 
-int circle_area_function(radius)
+int circle_area_function(int radius)
 {
     return (PI * radius * radius);
 
