@@ -1,4 +1,4 @@
-//WAP in C to count the number od digits
+//WAP in C++ to count the number od digits
 #include<iostream>
 using namespace std;
 
