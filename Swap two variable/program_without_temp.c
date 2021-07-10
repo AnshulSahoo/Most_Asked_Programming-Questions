@@ -15,7 +15,7 @@ int main()
     //swapping logic
 
     first_number = first_number + second_number; // a = 30 (10+20)
-    second_number = second_number - first_number; // b = 10 (20-10)
+    second_number = first_number - second_number; // b = 10 (20-10)
     first_number = first_number - second_number; // a = 20 (30-10)
 
     printf("\nFirst Number after swaping : %d\n",first_number);
