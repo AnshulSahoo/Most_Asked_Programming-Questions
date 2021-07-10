@@ -1,4 +1,4 @@
-//WAP in C to find the frequency of a digit in a number
+//WAP in C++ to find the frequency of a digit in a number
 
 #include<iostream>
 using namespace std;
