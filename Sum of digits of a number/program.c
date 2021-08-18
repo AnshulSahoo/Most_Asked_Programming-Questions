@@ -1,4 +1,4 @@
-//WAP in C to print the sum of N natural Numbers.
+//WAP in C to print the sum of digits of a number
 
 #include<stdio.h>
 int main()
@@ -7,14 +7,17 @@ int main()
     int n;
     int sum=0;
 
-    printf("Enter the no of Natural Number : ");
+    printf("Enter the Number : ");
     scanf("%d",&n);
 
-    for(i=1;i<=n;i++)
+    //sum of the digits of a number
+    while(n>0)
     {
-        sum = sum + i;
+        rem = n%10;
+        sum = sum + rem;
+        n = n/10;
     }
 
-    printf("The sum of n natural Number = %d",sum);
+    printf("The sum of the digits of a number =  %d",sum);
     return 0;
 }
