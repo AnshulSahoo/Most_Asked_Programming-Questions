@@ -1,4 +1,4 @@
-//Write a C program to create Simple Calculator using switch case.
+//Write a Cpp program to create Simple Calculator using switch case.
 #include <iostream>
 using namespace std;
 
